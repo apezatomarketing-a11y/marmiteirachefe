@@ -115,7 +115,7 @@ Para dúvidas sobre esta política, entre em contato: contato@nutrechefy.com.br`
             {/* Copyright and Credit */}
             <div className="text-center space-y-4">
               <p className="text-xs sm:text-sm text-muted-foreground">
-                © {currentYear} PáscoArt. Todos os direitos reservados.
+                © {currentYear} NutreChefy. Todos os direitos reservados.
               </p>
               
               <div className="flex items-center justify-center">
@@ -193,7 +193,7 @@ Para dúvidas sobre esta política, entre em contato: contato@nutrechefy.com.br`
             </div>
             <div className="p-6 space-y-4 text-sm text-muted-foreground">
               <p>
-                A PáscoArt utiliza cookies para melhorar sua experiência de navegação em nosso site.
+                A NutreChefy utiliza cookies para melhorar sua experiência de navegação em nosso site.
               </p>
               <h3 className="font-bold text-foreground">O que são Cookies?</h3>
               <p>

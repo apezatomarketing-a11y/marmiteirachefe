@@ -58,10 +58,10 @@ export default function DarkModeNote() {
               </div>
               <div>
                 <p className="text-sm font-bold text-foreground mb-1">
-                  Monte seu próprio Ovo de Páscoa
+                  Monte seu próprio Kit NutreChefy
                 </p>
                 <p className="text-xs text-muted-foreground mb-4">
-                  Crie uma combinação única com seus sabores favoritos!
+                  Crie uma combinação única com suas marmitas favoritas!
                 </p>
                 <Link href="/produtos#personalizar">
                   <button 

@@ -31,7 +31,7 @@ export default function Contato() {
         return;
       }
 
-      const whatsappMessage = `*PáscoArt - Solicitação de Personalização*\n\n` +
+      const whatsappMessage = `*NutreChefy - Solicitação de Informações*\n\n` +
         `*Nome:* ${formData.name}\n` +
         `*E-mail:* ${formData.email}\n` +
         `*Telefone:* ${formData.phone || 'Não informado'}\n\n` +
@@ -59,7 +59,7 @@ export default function Contato() {
               animate={{ opacity: 1, y: 0 }}
               className="text-4xl md:text-5xl font-bold text-foreground mb-6"
             >
-              Não encontrou o que queria e deseja algo ainda mais personalizado para sua Páscoa?
+              Não encontrou o que queria e deseja algo ainda mais personalizado para sua alimentação?
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -105,7 +105,7 @@ export default function Contato() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">E-mail</h3>
-                    <a href="mailto:contato@pascoart.com.br" className="text-primary hover:underline">contato@pascoart.com.br</a>
+                    <a href="mailto:contato@nutrechefy.com.br" className="text-primary hover:underline">contato@nutrechefy.com.br</a>
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@ export default function Contato() {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-5 py-4 rounded-2xl bg-muted/50 border border-border focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all resize-none"
-                    placeholder="Conte-nos o que você deseja para sua Páscoa..."
+                    placeholder="Conte-nos como podemos ajudar na sua alimentação..."
                   />
                 </div>
                 

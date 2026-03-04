@@ -29,12 +29,12 @@ export default function Header() {
           <a className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <img 
               src="/images/branding/logo_egg.png" 
-              alt="PáscoArt" 
+              alt="NutreChefy" 
               className="h-10 sm:h-12 w-auto"
             />
             <img 
               src="/images/branding/logo_text.png" 
-              alt="PáscoArt Text" 
+              alt="NutreChefy Text" 
               className="h-6 sm:h-8 w-auto hidden sm:block"
             />
           </a>

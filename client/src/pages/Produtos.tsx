@@ -176,14 +176,14 @@ export default function Produtos() {
     
     addItem({
       id: `custom-${Date.now()}`,
-      name: 'Ovo Personalizado PáscoArt',
+      name: 'Kit Personalizado NutreChefy',
       price: price,
       quantity: 1,
       details: details,
       image: '/images/ovo-ninho-nutella.png'
     });
     
-    toast.success('Ovo personalizado adicionado ao carrinho!');
+    toast.success('Kit personalizado adicionado ao carrinho!');
     setStep(0);
     setSelections({ base: '', estilo: '', recheio: '', brinde: '', tamanho: '350g' });
   };
@@ -202,7 +202,7 @@ export default function Produtos() {
               >
                 <Sparkles className="w-10 h-10" />
               </motion.div>
-              <h2 className="text-4xl font-black mb-4 leading-tight">Monte seu Próprio Ovo</h2>
+              <h2 className="text-4xl font-black mb-4 leading-tight">Monte seu Próprio Kit</h2>
               <p className="opacity-80">Personalize cada detalhe e crie o presente perfeito.</p>
               
               <div className="mt-10 space-y-4">
@@ -225,7 +225,7 @@ export default function Produtos() {
               <AnimatePresence mode="wait">
                 {step === 0 && (
                   <motion.div key="step0" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-8">
-                    <h3 className="text-2xl font-bold">Escolha a Casca (Base)</h3>
+                    <h3 className="text-2xl font-bold">Escolha a Proteína (Base)</h3>
                     <div className="grid grid-cols-2 gap-4">
                       {Object.keys(prices.base).map(opt => (
                         <button 
@@ -243,7 +243,7 @@ export default function Produtos() {
 
                 {step === 1 && (
                   <motion.div key="step1" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-8">
-                    <h3 className="text-2xl font-bold">Estilo do Ovo</h3>
+                    <h3 className="text-2xl font-bold">Estilo da Marmita</h3>
                     <div className="grid grid-cols-2 gap-4">
                       {Object.keys(prices.estilo).map(opt => (
                         <button 
