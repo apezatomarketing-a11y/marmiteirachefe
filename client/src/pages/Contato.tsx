@@ -85,7 +85,7 @@ export default function Contato() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Localização</h3>
-                    <p className="text-muted-foreground">Praia Grande - SP</p>
+                    <p className="text-muted-foreground">Jacareí - SP</p>
                   </div>
                 </div>
                 
@@ -119,7 +119,7 @@ export default function Contato() {
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.8217895742!2d-46.4039!3d-24.0047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d0c0c0c0c0c1%3A0xc0c0c0c0c0c0c0c0!2sPraia%20Grande%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58654.123456789!2d-45.9661!3d-23.3055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdca0c0c0c0c0c%3A0xc0c0c0c0c0c0c0c0!2sJacare%C3%AD%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
                 />
               </div>
             </motion.div>
