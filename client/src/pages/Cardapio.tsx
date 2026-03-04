@@ -4,7 +4,7 @@ import { ArrowRight, ShoppingBag, Minus, Plus, Star, Zap, ShieldCheck } from 'lu
 import { useState } from 'react';
 import Layout from '@/components/Layout';
 import { useCartStore } from '@/lib/store';
-import { useToast } from '@/hooks/use-toast';
+import { toast } from 'sonner';
 
 interface Marmita {
   id: number;
@@ -112,7 +112,7 @@ export default function Cardapio() {
   const [selectedSize, setSelectedSize] = useState<'mini' | 'pequena' | 'media'>('pequena');
   const [quantities, setQuantities] = useState<Record<number, number>>({});
   const { addItem } = useCartStore();
-  const { toast } = useToast();
+
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -146,8 +146,7 @@ export default function Cardapio() {
         image: marmita.imagem,
         details: `Tamanho: ${selectedSize}`
       });
-      toast({
-        title: "Adicionado ao carrinho!",
+      toast.success("Adicionado ao carrinho!", {
         description: `${qty}x ${marmita.nome} adicionado com sucesso.`,
       });
       setQuantities(prev => ({ ...prev, [marmita.id]: 0 }));
@@ -163,8 +162,7 @@ export default function Cardapio() {
       quantity: 1,
       details: `Tamanho: ${combo.tamanho} | Unidades: ${units}`
     });
-    toast({
-      title: "Combo adicionado!",
+    toast.success("Combo adicionado!", {
       description: `Combo de ${units} unidades adicionado ao carrinho.`,
     });
   };
