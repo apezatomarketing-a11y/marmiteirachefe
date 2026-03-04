@@ -95,14 +95,14 @@ export default function Buffet() {
 
   const handleWhatsAppClick = (buffetType: string) => {
     const message = `Olá! ${buffetType}. Gostaria de mais informações e um orçamento.`;
-    const whatsappUrl = `https://wa.me/5512988895030?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5512988957030?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const message = `Olá! Gostaria de um orçamento para evento.\n\nNome: ${formData.nome}\nEmpresa: ${formData.empresa}\nTelefone: ${formData.telefone}\nEmail: ${formData.email}\nTipo de Evento: ${formData.tipoEvento}\nNúmero de Convidados: ${formData.convidados}\nData: ${formData.data}\nLocal: ${formData.local}\nObservações: ${formData.observacoes}`;
-    const whatsappUrl = `https://wa.me/5512988895030?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5512988957030?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -319,7 +319,7 @@ export default function Buffet() {
                   value={formData.telefone}
                   onChange={(e) => setFormData({...formData, telefone: e.target.value})}
                   className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="(12) 98889-5030"
+                  placeholder="(12) 98895-7030"
                 />
               </motion.div>
               <motion.div variants={fadeInUp}>

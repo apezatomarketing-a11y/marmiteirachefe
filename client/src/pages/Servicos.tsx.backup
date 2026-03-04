@@ -124,7 +124,7 @@ export default function Servicos() {
               </ul>
               
               <div className="pt-4">
-                <a href={`https://wa.me/5512991895547?text=Olá, gostaria de solicitar um orçamento para ${service.title}.`} target="_blank" rel="noopener noreferrer">
+                <a href={`https://wa.me/5512988957030?text=Olá, gostaria de solicitar um orçamento para ${service.title}.`} target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/20">
                     Solicitar Orçamento
                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -142,7 +142,7 @@ export default function Servicos() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Temos soluções personalizadas para cada tipo de negócio. Entre em contato e vamos desenhar juntos a melhor estratégia para você.
           </p>
-          <a href="https://wa.me/5512991895547?text=Olá, gostaria de conversar com um especialista sobre uma solução personalizada." target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5512988957030?text=Olá, gostaria de conversar com um especialista sobre uma solução personalizada." target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               Falar com Especialista
             </Button>

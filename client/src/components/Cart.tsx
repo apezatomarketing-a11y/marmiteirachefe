@@ -20,7 +20,7 @@ export default function Cart() {
       `\n\n*Total: R$ ${total.toFixed(2)}*`;
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/5512988895030?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/5512988957030?text=${encodedMessage}`, '_blank');
     
     toast.success('Pedido enviado para o WhatsApp!');
     clearCart();

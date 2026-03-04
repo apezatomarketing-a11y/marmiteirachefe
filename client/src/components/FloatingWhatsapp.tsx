@@ -30,7 +30,7 @@ export default function FloatingWhatsapp() {
           />
           
           <motion.a
-            href="https://wa.me/5512988895030?text=Olá! Gostaria de conversar sobre as marmitas da NutreChefy"
+            href="https://wa.me/5512988957030?text=Olá! Gostaria de conversar sobre as marmitas da NutreChefy"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20, scale: 0.8 }}

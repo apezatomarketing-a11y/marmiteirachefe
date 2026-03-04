@@ -70,7 +70,7 @@ Para dúvidas sobre esta política, entre em contato: contato@nutrechefy.com.br`
               <h3 className="font-bold text-foreground mb-6 uppercase text-sm tracking-wider">Contato</h3>
               <ul className="space-y-3 text-muted-foreground text-sm">
                 <li>
-                  <a href="https://wa.me/5512988895030" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  <a href="https://wa.me/5512988957030" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                     WhatsApp
                   </a>
                 </li>

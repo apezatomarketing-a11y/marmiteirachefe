@@ -210,7 +210,7 @@ export default function Sobre() {
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
               </Link>
-              <a href="https://wa.me/5512988895030" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5512988957030" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-full h-14 sm:h-16 px-8 sm:px-10 text-lg font-bold border-white text-white hover:bg-white/10">
                   Fale Conosco
                 </Button>

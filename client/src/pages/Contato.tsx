@@ -38,7 +38,7 @@ export default function Contato() {
         `*Mensagem:* ${formData.message}`;
 
       const encodedMessage = encodeURIComponent(whatsappMessage);
-      window.open(`https://wa.me/5512991895547?text=${encodedMessage}`, '_blank');
+      window.open(`https://wa.me/5512988957030?text=${encodedMessage}`, '_blank');
 
       toast.success('Redirecionando para o WhatsApp!');
       setFormData({ name: '', email: '', phone: '', message: '' });
@@ -95,7 +95,7 @@ export default function Contato() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">WhatsApp</h3>
-                    <a href="https://wa.me/5512991895547" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(12) 99189-5547</a>
+                    <a href="https://wa.me/5512988957030" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(12) 98895-7030</a>
                   </div>
                 </div>
                 

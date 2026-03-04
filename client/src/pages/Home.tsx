@@ -68,7 +68,7 @@ export default function Home() {
                 <span>Sabor de Casa em Jacareí</span>
               </motion.div>
               
-              <motion.h1 variants={fadeInUp} className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.1] mb-8 tracking-tight">
+              <motion.h1 variants={fadeInUp} className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.1] mb-6 sm:mb-8 tracking-tight">
                 Marmitas Saudáveis com <span className="text-primary relative">
                   Sabor Real
                   <svg className="absolute -bottom-2 left-0 w-full h-3 text-accent/30" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -77,7 +77,7 @@ export default function Home() {
                 </span>
               </motion.h1>
               
-              <motion.p variants={fadeInUp} className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
+              <motion.p variants={fadeInUp} className="text-base sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 Alimentação equilibrada, prática e feita com carinho para sua rotina. Marmitas congeladas de alta qualidade preparadas com ingredientes frescos e temperos naturais.
               </motion.p>
               
@@ -100,14 +100,14 @@ export default function Home() {
               </motion.div>
 
               {/* Stats */}
-              <motion.div variants={fadeInUp} className="grid grid-cols-3 gap-8 pt-10 border-t border-border/50">
+              <motion.div variants={fadeInUp} className="grid grid-cols-3 gap-4 sm:gap-8 pt-10 border-t border-border/50">
                 {[
                   { label: 'Sabores Diferentes', end: 10, suffix: '+' },
                   { label: 'Ingredientes Frescos', end: 100, suffix: '%' },
                   { label: 'Congeladas', end: 30, suffix: '+ dias' },
                 ].map((stat, i) => (
                   <div key={i} className="text-center lg:text-left group">
-                    <div className="text-3xl sm:text-4xl font-black text-primary mb-1 group-hover:scale-110 transition-transform inline-block">
+                    <div className="text-2xl sm:text-4xl font-black text-primary mb-1 group-hover:scale-110 transition-transform inline-block">
                       <AnimatedCounter end={stat.end} />{stat.suffix}
                     </div>
                     <p className="text-xs sm:text-sm font-bold text-muted-foreground uppercase tracking-wider">{stat.label}</p>
@@ -232,7 +232,7 @@ export default function Home() {
                   </Button>
                 </motion.div>
               </Link>
-              <a href="https://wa.me/5512988895030" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5512988957030" target="_blank" rel="noopener noreferrer">
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-2xl h-16 sm:h-20 px-12 text-xl font-black border-white text-white hover:bg-white/10">
                     Chamar no WhatsApp

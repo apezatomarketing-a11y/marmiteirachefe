@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { X, Egg } from 'lucide-react';
+import { X, Heart } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'wouter';
 
@@ -54,7 +54,7 @@ export default function DarkModeNote() {
 
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-                <Egg className="w-6 h-6 text-primary" />
+                <Heart className="w-6 h-6 text-primary fill-primary/20" />
               </div>
               <div>
                 <p className="text-sm font-bold text-foreground mb-1">

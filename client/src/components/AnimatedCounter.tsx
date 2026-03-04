@@ -49,7 +49,7 @@ export default function AnimatedCounter({
   return (
     <span ref={ref}>
       {prefix}
-      {count.toFixed(decimals)}
+      {Math.round(count).toFixed(decimals)}
       {suffix}
     </span>
   );
