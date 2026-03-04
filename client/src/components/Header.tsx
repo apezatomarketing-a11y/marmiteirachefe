@@ -32,6 +32,9 @@ export default function Header() {
               alt="NutreChefy" 
               className="h-10 sm:h-12 w-auto"
             />
+            <span className="text-2xl sm:text-3xl font-black tracking-tighter bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto] animate-gradient-x bg-clip-text text-transparent ml-2">
+              NutreChefy
+            </span>
           </a>
         </Link>
 

@@ -146,9 +146,9 @@
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    background-color: #FFFDD0;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600"><defs><style>.egg{fill:none;stroke:%237B3F00;stroke-width:3;opacity:0.1;} .egg-accent{fill:none;stroke:%23D2691E;stroke-width:2;opacity:0.08;}</style></defs><ellipse class="egg" cx="100" cy="150" rx="50" ry="70"/><ellipse class="egg-accent" cx="300" cy="200" rx="55" ry="75"/><ellipse class="egg" cx="200" cy="400" rx="52" ry="72"/><ellipse class="egg-accent" cx="80" cy="500" rx="48" ry="68"/><ellipse class="egg" cx="320" cy="520" rx="50" ry="70"/><ellipse class="egg-accent" cx="200" cy="80" rx="46" ry="65"/><ellipse class="egg" cx="350" cy="350" rx="48" ry="68"/><ellipse class="egg-accent" cx="50" cy="300" rx="52" ry="72"/></svg>');
-    background-size: 600px 900px;
+    background-color: var(--background);
+    background-image: radial-gradient(circle at 2px 2px, var(--muted) 1px, transparent 0);
+    background-size: 40px 40px;
     background-attachment: fixed;
     background-repeat: repeat;
   }
@@ -219,6 +219,15 @@
   }
   .animate-counter {
     animation: counter 0.3s ease-out;
+  }
+
+  @keyframes gradient-x {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .animate-gradient-x {
+    animation: gradient-x 3s ease infinite;
   }
 
 
